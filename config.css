@@ -1,0 +1,15 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+body {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main {
+    max-width: 37.5rem;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
